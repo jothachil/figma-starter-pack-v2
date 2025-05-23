@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <main className="bg-white h-[100vh] relative ">
+    <main className="bg-white h-screen relative ">
       <div className="pt-2 flex items-center gap-x-2 p-2">
         <div className="">
           <Select
@@ -55,16 +55,7 @@ function App() {
         </div>
       </div>
       <hr className="border-t  border-neutral-200 " />
-      <div className="pt-2 flex items-center gap-x-2 p-2">
-        <div className="flex-1">
-          <Input
-            className=""
-            defaultValue=""
-            onChange={function _() {}}
-            placeholder="Enter Name Placeholder"
-          />
-        </div>
-      </div>
+      <div className="text-4xl">Hello figma</div>
       <div className=" absolute bottom-0 w-full ">
         <hr className="border-t border-neutral-200 " />
         <div className="p-2">
